@@ -1,0 +1,54 @@
+/* common classes */
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.absolute-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.photo-section {
+  height: 100%;
+  min-height: 100vh;
+  min-width: 100%;
+  background-size: cover;
+}
+
+.photo-section-child {
+  padding: 240px 0px 180px;
+}
+
+.photo-section-heading {
+  font-size: 100px;
+  line-height: 96px;
+  font-weight: 600;
+  max-width: 700px;
+}
+
+.photo-section-subHeading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  max-width: 630px;
+  margin-top: 16px;
+}
+
+.photo-section-desc {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  max-width: 630px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
